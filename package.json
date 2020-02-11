@@ -1,0 +1,21 @@
+{
+  "name": "ibtihel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^79.0.0",
+    "geckodriver": "^1.19.1",
+    "nightwatch": "^1.3.2"
+  }
+}

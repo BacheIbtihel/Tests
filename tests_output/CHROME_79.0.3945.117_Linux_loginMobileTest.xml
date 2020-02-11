@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="loginMobileTest"
+    errors="0" failures="0" hostname="" id="" package="loginMobileTest" skipped="0"
+    tests="1" time="12.79" timestamp="">
+  
+    <testcase name="Login Mobile test" classname="loginMobileTest" time="12.79" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TimeoutError: An error occurred while running .click() command on &lt;.btn[type=&#34;submit&#34;]&gt;:   (Session info: chrome=79.0.3945.117),  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Linux 5.0.0-37-generic x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=79.0.3945.117)&#34;,&#34;  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Linux 5.0.0-37-generic x86_64)&#34;]},&#34;errorStatus&#34;:11,&#34;error&#34;:&#34;element not interactable&#34;,&#34;httpStatusCode&#34;:200}[0m
+[0;90m       at &lt;anonymous&gt;
+       at process._tickCallback (internal/process/next_tick.js:188:7)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
