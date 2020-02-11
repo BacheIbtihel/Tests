@@ -1,5 +1,5 @@
 module.exports = {
-    '@tags' : ['addpoint'],
+    '@tags' : ['addpoints'],
     
     'Login test' : function (browser) {
   
@@ -13,7 +13,6 @@ module.exports = {
 
         browser 
             .url('https://app.takiacademy.com')
-            //.waitForElementVisible('.x-float')
             //.assert.containsText(".x-float" , "Ou connectez-vous à votre compte")
             .setValue(mainQueryInputSelector, mainQuery)
             .setValue(mainQueryInputSelectorMdp, mainQueryMdp)
@@ -25,7 +24,7 @@ module.exports = {
             .setValue('input[name=amount]','300')
             .setValue('input[name=comment]','GOLD')
             .click(ButtonAddPoint)
-            .saveScreenshot ('tests_output/PointsTest.png')
+            .saveScreenshot ('tests_output/PointsTests.png')
 
             .pause(900)
             .end();
